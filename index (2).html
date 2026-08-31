@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Q3 Law Firm Growth Workshop · Scottsdale · Sep 24–26</title>
+  <meta name="description" content="The event is free. First time open to non-clients. Attendance is free for Scottsdale-area firm owners." />
+  <link rel="canonical" href="https://scottsdale-q3.vercel.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://scottsdale-q3.vercel.app/" />
+  <meta property="og:title" content="The event is free. To you." />
+  <meta property="og:description" content="First time this workshop is open to non-clients. Attendance is free for Scottsdale-area firm owners." />
+  <meta property="og:image" content="https://scottsdale-q3.vercel.app/cityscape.png" />
+  <meta property="og:image:width" content="1536" />
+  <meta property="og:image:height" content="1024" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The event is free. To you." />
+  <meta name="twitter:description" content="First time this workshop is open to non-clients. Attendance is free for Scottsdale-area firm owners." />
+  <meta name="twitter:image" content="https://scottsdale-q3.vercel.app/cityscape.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --green: #69CD2B;
+      --navy: #001B29;
+      --navy-2: #052A46;
+      --orange: #F88F08;
+      --ink: #2F2F2F;
+      --white: #fff;
+      --sticky: 56px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: 64px; }
+    body {
+      font-family: Poppins, Helvetica, sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.9)),
+        url("https://growth.smbteam.com/hosted/images/79/f1155cf472496ba2880698a48a15ca/arizona-cityscape-1-.png") center top / cover no-repeat fixed;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1000px, calc(100% - 32px)); margin: 0 auto; }
+    .topbar {
+      position: sticky; top: 0; z-index: 20;
+      height: var(--sticky);
+      background: var(--navy);
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px;
+      padding: 0 16px;
+      flex-wrap: nowrap;
+    }
+    .topbar img { height: 28px; width: auto; flex: 0 0 auto; }
+    .btn {
+      display: inline-block;
+      background: var(--green);
+      color: #000;
+      font-weight: 600;
+      border-radius: 10px;
+      padding: 14px 22px;
+      text-align: center;
+      box-shadow: 0 6px 16px rgba(0,0,0,.18);
+    }
+    .btn.block { display: block; width: 100%; font-size: 24px; padding: 20px 16px; }
+    .btn.small {
+      font-size: 14px;
+      padding: 8px 14px;
+      white-space: nowrap;
+      flex: 0 0 auto;
+    }
+    .hero { padding: 36px 0 28px; text-align: center; }
+    .hero-panel {
+      background: rgba(255,255,255,0.94);
+      border-radius: 16px;
+      box-shadow: 0 10px 28px rgba(0,0,0,.16);
+      padding: 32px 28px 28px;
+    }
+    .pill {
+      display: inline-block;
+      background: #f3f3f3;
+      border-radius: 999px;
+      padding: 8px 18px;
+      font-weight: 600;
+      font-size: 14px;
+      color: #111;
+      margin-bottom: 14px;
+    }
+    .workshop-name {
+      color: var(--orange);
+      font-style: italic;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-weight: 800;
+      font-size: clamp(32px, 5vw, 56px);
+      line-height: 1.05;
+      color: #000;
+      margin-bottom: 16px;
+    }
+    .hero h2 {
+      font-size: clamp(18px, 2.5vw, 24px);
+      font-weight: 600;
+      line-height: 1.4;
+      max-width: 760px;
+      margin: 0 auto 18px;
+      color: #111;
+    }
+    .thesis {
+      font-size: 17px;
+      font-weight: 600;
+      max-width: 720px;
+      margin: 0 auto 14px;
+      color: #111;
+    }
+    .why {
+      font-size: 16px;
+      font-weight: 500;
+      max-width: 720px;
+      margin: 0 auto 16px;
+      color: #333;
+      line-height: 1.45;
+    }
+    .fineprint {
+      font-size: 13px;
+      font-weight: 400;
+      color: #6b7280;
+      margin: 12px auto 0;
+      max-width: 720px;
+    }
+    .next {
+      font-size: 16px;
+      font-weight: 600;
+      max-width: 720px;
+      margin: 0 auto 14px;
+      color: var(--navy);
+      line-height: 1.4;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 28px rgba(0,0,0,.16);
+      margin: 28px auto;
+      overflow: hidden;
+    }
+    .card-head {
+      background: var(--navy);
+      color: #fff;
+      font-weight: 700;
+      padding: 14px 20px;
+      font-size: 18px;
+    }
+    .eyebrow {
+      color: var(--orange);
+      font-style: italic;
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: clamp(26px, 4vw, 40px);
+      font-weight: 800;
+      color: #000;
+      line-height: 1.15;
+    }
+    .green { color: var(--green); }
+    .center { text-align: center; }
+    .lede { margin: 14px auto 0; max-width: 720px; font-size: 18px; }
+    .video { background: #000; aspect-ratio: 16/9; }
+    wistia-player { display: block; width: 100%; height: 100%; }
+    .grid3, .grid2 { display: grid; gap: 20px; margin-top: 28px; }
+    .grid3 { grid-template-columns: repeat(3, 1fr); }
+    .grid2 { grid-template-columns: 1fr 1fr; }
+    .mini {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 28px rgba(0,0,0,.16);
+      padding: 28px 22px;
+    }
+    .num { color: var(--orange); font-weight: 800; font-size: 40px; line-height: 1; margin-bottom: 8px; }
+    .mini h3 { font-size: 22px; font-weight: 800; margin-bottom: 10px; color: #000; }
+    .book {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 28px rgba(0,0,0,.16);
+      padding: 40px 24px 20px;
+      margin: 36px auto 28px;
+      scroll-margin-top: 64px;
+    }
+    .meetings-iframe-container { min-height: 690px; }
+    .cal-fallback {
+      text-align: center;
+      margin: 8px 0 12px;
+      font-size: 15px;
+    }
+    .cal-fallback a {
+      color: var(--navy-2);
+      text-decoration: underline;
+      font-weight: 600;
+    }
+    footer {
+      background: var(--navy);
+      color: #f0f5fa;
+      border-top: 5px solid var(--green);
+      padding: 40px 16px 24px;
+      font-family: Poppins, Helvetica, sans-serif;
+    }
+    .footer-grid {
+      width: min(1000px, 100%);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+      align-items: center;
+      text-align: center;
+    }
+    .footer-logo { width: 180px; height: auto; }
+    .footer-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #f0f5fa;
+      margin-bottom: 10px;
+    }
+    .footer-label.visit { color: #747474; }
+    .footer-body {
+      font-size: 16px;
+      line-height: 1.5;
+      color: rgba(255,255,255,0.9);
+    }
+    .footer-legal {
+      text-align: center;
+      margin-top: 28px;
+      font-size: 16px;
+      color: #f0f5fa;
+    }
+    .footer-legal a { color: #fff; text-decoration: underline; }
+    .footer-tcpa {
+      width: min(900px, 100%);
+      margin: 16px auto 0;
+      text-align: center;
+      font-size: 15px;
+      line-height: 1.5;
+      color: rgba(240,245,250,0.75);
+    }
+    @media (max-width: 800px) {
+      .grid3, .grid2, .footer-grid { grid-template-columns: 1fr; }
+      .btn.block { font-size: 18px; padding: 16px; }
+      .hero p.sub { font-size: 17px; }
+      .hero-panel { padding: 24px 16px 20px; }
+      .btn.small { font-size: 12px; padding: 8px 10px; }
+      .topbar img { height: 24px; }
+    }
+  </style>
+  <script src="https://fast.wistia.com/player.js" async></script>
+  <script src="https://fast.wistia.com/embed/c9t229v2le.js" async type="module"></script>
+  <script src="https://fast.wistia.com/embed/uqxl0eyjnb.js" async type="module"></script>
+</head>
+<body>
+  <header class="topbar">
+    <img src="https://growth.smbteam.com/hosted/images/3f/56535e32554a8fa069ae6a58ed36c6/SMB-Logo-r--H-White.png" alt="SMB Team" />
+    <a class="btn small" href="#book">Book 15 minutes with Dan</a>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-panel">
+        <p class="pill">September 24–26, 2026 • Westin Kierland Resort • Scottsdale, Arizona</p>
+        <p class="workshop-name">Q3 Law Firm Growth Workshop</p>
+        <h1>The event is <span class="green">free</span>. To you.</h1>
+        <h2>This is the first time we're opening this event to non-clients. Attendance is free for Scottsdale-area firm owners. Watch the video below and book 15 minutes with Dan Bryant to take advantage.</h2>
+        <a class="btn block" href="#book">Book 15 minutes with Dan</a>
+        <p class="fineprint">Food and beverage optional.<br>Spots are limited.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <article class="card">
+        <div class="card-head">Watch why this workshop is different</div>
+        <div class="video">
+          <wistia-player media-id="c9t229v2le" aspect="1.7777777777777777"></wistia-player>
+        </div>
+      </article>
+
+      <div class="center" style="margin: 36px 0 8px;">
+        <p class="eyebrow">New this year. Never covered before.</p>
+        <h2>Not a lecture. A plan you can run on Monday.</h2>
+      </div>
+      <div class="grid3">
+        <article class="mini">
+          <p class="num">01</p>
+          <h3>First ever Aftermind</h3>
+          <p>Small group. You take everything from the weekend and turn it into a three-month battle plan for the last stretch of the year. That is how you leave with a plan for this quarter, KPIs per goal.</p>
+        </article>
+        <article class="mini">
+          <p class="num">02</p>
+          <h3>A weekly battle plan from a 3-year vision</h3>
+          <p>Reverse-engineer where the firm is going into what you actually do this week. Plus what is working right now on average fee per case, and how firms in your same practice are growing.</p>
+        </article>
+        <article class="mini">
+          <p class="num">03</p>
+          <h3>Pull them aside</h3>
+          <p>Fractional CTOs, CFOs, COOs, Google, social, and SEO people in the room. Not on a stage. One-on-one, on an actual problem in your firm.</p>
+        </article>
+      </div>
+      <p class="next center" style="margin: 28px auto 10px;">Watch the video, then secure your spot with Dan.</p>
+      <p style="margin: 0 0 8px;"><a class="btn block" href="#book">Talk with Dan</a></p>
+
+      <div class="center" style="margin: 56px 0 8px;">
+        <h2>One weekend to make the home stretch of 2026 <span class="green">your best yet</span></h2>
+      </div>
+      <div class="grid2">
+        <article class="mini">
+          <p class="eyebrow">Masterclass + surprise guest</p>
+          <p>The #1 fastest growing law firm in the US, according to Inc. 5000 in 2025, will lead an in-person masterclass on exactly how he scaled.</p>
+        </article>
+        <article class="mini">
+          <p class="eyebrow">What you walk out with</p>
+          <p>A plan for the rest of this quarter, broken into KPIs per goal, and a room of owners who are actually growing.</p>
+        </article>
+      </div>
+
+      <div class="center" style="margin: 48px 0 8px;">
+        <p class="eyebrow">Join us</p>
+        <h2>Join us in <span class="green">Scottsdale</span></h2>
+        <p class="lede">Thursday, September 24 through Saturday, September 26, 2026 at the Westin Kierland Resort.</p>
+      </div>
+
+      <article class="card">
+        <div class="card-head">Hear it straight from the team</div>
+        <div class="video">
+          <wistia-player media-id="uqxl0eyjnb" aspect="1.7777777777777777"></wistia-player>
+        </div>
+      </article>
+
+      <article class="book" id="book">
+        <p class="eyebrow center">Next step</p>
+        <h2 class="center">Fifteen minutes with Dan</h2>
+        <p class="lede center">No pitch. He walks the weekend with you. If you want in, he gets you on the list.</p>
+        <div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/dan-bryant/scottsdale-15?embed=true"></div>
+        <p class="cal-fallback"><a id="cal-fallback-link" href="https://meetings.hubspot.com/dan-bryant/scottsdale-15" target="_blank" rel="noopener">Calendar not loading?</a></p>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <img class="footer-logo" src="https://growth.smbteam.com/hosted/images/3f/56535e32554a8fa069ae6a58ed36c6/SMB-Logo-r--H-White.png" alt="SMB Team" />
+      </div>
+      <div>
+        <p class="footer-label">Questions?</p>
+        <p class="footer-body">(866)479-5752<br><a href="mailto:Support@smbteam.com" style="color: inherit;">Support@smbteam.com</a></p>
+      </div>
+      <div>
+        <p class="footer-label visit">Visit us</p>
+        <p class="footer-body">3 Bala Plaza East Suite #101,<br>Bala Cynwyd, PA 19004</p>
+      </div>
+    </div>
+    <p class="footer-legal">© 2026 SMB Team Legal, LLC | All Rights Reserved | <a href="https://smbteam.com/privacy/">Privacy Policy</a></p>
+    <p class="footer-tcpa">By providing my phone number, I authorize SMB Team legal and its affiliates to deliver recurring informational and marketing text messages and calls to the phone number I provided about SMB Team legal’s products, services, and information, including with an automatic telephone dialing system or pre-recorded or artificial voice messages, even if my phone number is listed on any do not call registry. I understand my consent is not a condition of purchase. I also agree to SMB legal’s privacy policies and terms. Standard messaging and data rates may apply.</p>
+  </footer>
+  <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+  <script>
+    (function () {
+      var box = document.querySelector(".meetings-iframe-container");
+      var link = document.getElementById("cal-fallback-link");
+      if (!box || !link) return;
+      var src = box.getAttribute("data-src") || "";
+      link.href = src.replace("?embed=true", "").replace("&embed=true", "");
+    })();
+  </script>
+</body>
+</html>
